@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Niewolnik Maryi</string>
+
+    <string name="main_button1">Traktat</string>
+    <string name="main_button2">Modlitwy</string>
+    <string name="main_button3">Nowenny</string>
+    <string name="main_button5">Ustawienia</string>
+    <string name="main_button_info">Wiadomości</string>
+
+    <string name="main_textView_text">Zwycieństwo gdy przyjdzie, przyjdzie przez Maryję - Kardynał August Hlond</string>
+
+    <string name="traktat_button1">Omówienie</string>
+    <string name="traktat_button2">Okres 12 Dni</string>
+    <string name="traktat_button3">Część Pierwsza</string>
+    <string name="traktat_button4">Część Druga</string>
+    <string name="traktat_button5">Część Trzecia</string>
+    <string name="traktat_button6">Akt Oddania się</string>
+    <string name="traktat_button7">Terminy</string>
+    <string name="traktat_clear_marks">Odznacz</string>
+    <string name="back">Wróć</string>
+
+    <string name="settings_textView1">Motyw aplikacji</string>
+    <string name="settings_textView3">Wybór języka</string>
+
+    <string name="settings_button1">Informacje</string>
+    <string name="settings_button2">Inne aplikacje</string>
+    <string name="settings_button3">Oceń aplikacje</string>
+
+    <string name="kofi_text3">Postaw kawę</string>
+
+    <string name="error">Nie można odnaleść aplikacji Sklep Google Play</string>
+    <string name="Twelfth_head">Okres 12 dni wyrzeczenia się świata</string>
+    <string name="seven_head_1">Część pierwsza: Poznanie samego siebie</string>
+    <string name="seven_head_2">Część druga: Poznanie Matki Bożej</string>
+    <string name="seven_head_3">Część trzecia: Poznanie Pana Jezusa</string>
+    <string name="novenna_head">Nowenna do Matki Bożej Miłosierdzia</string>
+    <string name="unmarked">Usuń zaznaczenia</string>
+    <string name="day">"Dzień: "</string>
+    <string name="marked">Czy napewno chcesz usunąć zaznaczenie wszystkie dni?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Anuluj</string>
+    <string name="modlitwy_rodzaj">Wybierz rodzaj modlitwy:</string>
+
+    <!--  Apps-->
+    <string name="app_objawienia">Objawienia</string>
+    <string name="app_rachunek_sumienia">Rachunek Sumienia</string>
+    <string name="app_niewolnik_maryi">Niewolnik Maryi</string>
+    <string name="app_kalkulator_cnc">Kalkulator CNC</string>
+    <string name="app_kalkulator_cnc_plus">Kalkulator CNC Plus</string>
+    <string name="app_moj_rozaniec">Mój Różaniec</string>
+    <string name="app_kalendarz_liturgiczny">Kalendarz Liturgiczny</string>
+    <string name="app_kalendarz_liturgiczny_plus">Kalendarz Liturgiczny Plus</string>
+    <string name="app_droga_krzyzowa">Droga Krzyżowa</string>
+    <string name="app_ktoz_jak_bog">Któż jak Bóg</string>
+    <string name="app_ktoz_jak_bog_plus">Któż jak Bóg Plus</string>
+    <string name="app_objawienia_plus">Objawienia Plus</string>
+    <string name="app_niewolnik_maryi_plus">Niewolnik Maryi</string>
+    <string name="app_moj_rozaniec_plus">Mój Różaniec Plus</string>
+    <string name="app_droga_krzyzowa_plus">Droga Krzyżowa Plus</string>
+    <string name="app_rachunek_sumienia_plus">Rachunek sumienia Plus</string>
+
+
+
+
+
+    <string-array name="spinner1_items">
+        <item>Ciemny niebieski</item>
+        <item>Jasny niebieski</item>
+        <item>Ciemny szary</item>
+        <item>Jasny szary</item>
+        <item>Lawendowy</item>
+        <item>Pomarańczowy</item>
+        <item>Różowy</item>
+        <item>Różany</item>
+    </string-array>
+
+    <string-array name="spinner3_items">
+        <item>Polski</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="spinner4_items">
+        <item>Modlitwy traktatu</item>
+        <item>Modlitwy skierowane do Maryi</item>
+    </string-array>
+
+    <string-array name="spinner5_items">
+        <item>1982</item>
+        <item>1984</item>
+        <item>1985</item>
+        <item>1986</item>
+        <item>1987</item>
+        <item>1988</item>
+        <item>1989</item>
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+    </string-array>
+
+    <string-array name="listView1_items1">
+        <item>Magnificat</item>
+        <item>Ave Maris Stella</item>
+        <item>Modlitwa do Jezusa Chrystusa</item>
+        <item>Modlitwa do Maryi</item>
+        <item>O Jezu żyjący w Maryi</item>
+        <item>Litania do Ducha Świętego</item>
+        <item>Litania do Najświętszego Imienia Jezus</item>
+        <item>Litania do Najświętszego Serca Jezusowego</item>
+        <item>Litania Loretańska</item>
+        <item>Akt oddania się, wersja skrócona</item>
+        <item>Veni Creator Spiritus</item>
+        <item>Ave Maris Stella (nowa wersja)</item>
+    </string-array>
+
+    <string-array name="listView1_items2">
+        <item>Praktyka pierszych sobót miesiaca</item>
+        <item>Koronka do krwawych łez Maryi</item>
+        <item>Akt całkowitego oddania się Na życie u Maryi</item>
+        <item>Akt oddania się Matce Bożej Szkaplerznej</item>
+        <item>Akt oddania się Niepokalanemu Poczęciu</item>
+        <item>Akt zawierzenia NMP Jana Pawla II</item>
+        <item>Akt poświecenia się niepokalanemu Sercu Maryi</item>
+        <item>Apel Jasnogórski</item>
+        <item>Ave Maria</item>
+        <item>Bądź pozdrowiona Maryjo</item>
+        <item>Błogosławiona</item>
+        <item>Bogurodzica</item>
+        <item>Bolesna Królowo Polski</item>
+        <item>Chwalmy Matkę, Dzieciątku Śpiewajmy</item>
+        <item>Do Matki Bożej Szkaplerznej</item>
+        <item>Hymn Do Maryi</item>
+        <item>Królowo Nieba</item>
+        <item>Matka Boża Pojednawczyni Grzeszników</item>
+        <item>Matka Dobrej Drogi</item>
+        <item>Modlitwa do Matki Bożej Częstochowskiej I</item>
+        <item>Modlitwa do Matki Bożej Częstochowskiej II</item>
+    </string-array>
+
+    <string-array name="listView2_items1">
+        <item>Nowenna do Matki Bożej Miłosierdzia</item>
+    </string-array>
+
+    <string name="information_tekst1">Bądź na bieżąco! Przejdź na bloga, aby zobaczyć najnowsze newsy o moich aplikacjach.</string>
+    <string name="information_tekst2">Przejdż do bloga</string>
+    <string name="Move">Przesuń aby zmienić rozmiar tekstu</string>
+
+    <string name="rate_info1">Witaj. Twoja opinia jest dla mnie bardzo ważna. Czy chciałbys ocenić aplikację?</string>
+    <string name="rate_info2">Oceń</string>
+    <string name="rate_info3">Nie, Dziękuje"</string>
+
+    <string name="loading">Wczytywanie…</string>
+
+    <!-- Wspólne -->
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="confirmation_title">Potwierdzenie</string>
+    <string name="progress_delete_title">Usuwanie postępu</string>
+    <string name="progress_delete_confirm">Usuń postęp</string>
+    <string name="day_number">Dzień %1$d</string>
+    <string name="day_short">Dz. %1$d</string>
+
+    <!-- ShowTextScreen -->
+    <string name="showtext_load_error">Błąd podczas ładowania pliku: %1$s\n\nSzczegóły: %2$s</string>
+    <string name="showtext_decrease_font">Zmniejsz</string>
+    <string name="showtext_increase_font">Zwiększ</string>
+
+    <!-- Ekran wiadomości -->
+    <string name="news_empty">Brak nowych wiadomości</string>
+    <string name="news_image_desc">Obrazek wiadomości</string>
+    <string name="news_error_fetch">Nie udało się pobrać wiadomości z serwera.</string>
+    <string name="news_error_network">Wystąpił błąd sieci: %1$s</string>
+
+    <!-- Nowenny -->
+    <string name="nowenny_clear_confirm">Czy na pewno chcesz odznaczyć wszystkie dni w tej nowennie?</string>
+
+    <!-- Traktat -->
+    <string name="traktat_next_day">Kolejny dzień do odmówienia: Dzień %1$d</string>
+    <string name="traktat_all_done">Wszystkie dni odmówione!</string>
+    <string name="traktat_jump_confirm">Czy na pewno chcesz zacząć traktat od %1$d. dnia? Wszystkie poprzednie dni zostaną automatycznie zaznaczone jako odmówione.</string>
+    <string name="traktat_clear_stage_confirm">Czy na pewno chcesz odznaczyć dni w tym etapie?</string>
+    <string name="traktat_clear_all_stages">Odznacz wszystkie etapy (zresetuj cały traktat)</string>
+    <string name="traktat_title_intro">Wprowadzenie</string>
+    <string name="traktat_title_act">Akt poświęcenia</string>
+    <string name="traktat_title_terms">Terminy</string>
+
+    <!-- Ustawienia -->
+    <string name="settings_language">Język</string>
+    <string name="settings_subscriptions">Subskrypcje</string>
+    <string name="settings_privacy">Prywatność</string>
+
+    <!-- Polityka prywatności -->
+    <string name="privacy_policy_title">Polityka prywatności</string>
+    <string name="privacy_policy_open">Polityka prywatności</string>
+    <string name="privacy_policy_error">Nie udało się wczytać polityki prywatności.</string>
+
+    <!-- Subskrypcja -->
+    <string name="subscription_title">Subskrypcja Premium</string>
+    <string name="subscription_premium_version">Wersja Premium</string>
+    <string name="subscription_premium_desc">Wspieraj rozwój aplikacji i korzystaj z niej bez rozpraszających reklam.</string>
+    <string name="subscription_benefit_noads">Brak reklam w całej aplikacji</string>
+    <string name="subscription_benefit_support">Wsparcie dalszego rozwoju aplikacji</string>
+    <string name="subscription_status">Status</string>
+    <string name="subscription_status_active">Aktywna</string>
+    <string name="subscription_status_inactive">Nieaktywna</string>
+    <string name="subscription_status_checking">Sprawdzanie…</string>
+    <string name="subscription_ios_pending">System subskrypcji dla iOS jest w trakcie przygotowywania. Funkcja będzie wkrótce dostępna.</string>
+    <string name="subscription_manage">Zarządzaj subskrypcją</string>
+    <string name="subscription_restore">Przywróć zakupy</string>
+    <string name="subscription_autorenew_info">Subskrypcja odnawia się automatycznie, chyba że zostanie anulowana co najmniej 24h przed końcem bieżącego okresu.</string>
+    <string name="subscription_terms">Regulamin</string>
+    <string name="subscription_privacy">Prywatność</string>
+    <string name="subscription_card_active_desc">Dziękujemy za wsparcie — reklamy są wyłączone.</string>
+    <string name="subscription_card_inactive_desc">Usuń reklamy i wesprzyj rozwój aplikacji.</string>
+    <string name="subscription_buy">Kup</string>
+
+    <!-- Zakupy (Android) -->
+    <string name="billing_purchase_cancelled">Zakup anulowany.</string>
+    <string name="billing_error">Wystąpił błąd: %1$s</string>
+    <string name="billing_offer_not_found">Nie znaleziono oferty: %1$s</string>
+    <string name="billing_auth_error">Błąd autoryzacji zakupu: %1$s</string>
+    <string name="billing_offer_trial">Rozpocznij bezpłatny okres próbny, potem %1$s</string>
+    <string name="billing_offer_monthly">Miesięcznie %1$s</string>
+    <string name="billing_offer_yearly">Rocznie %1$s</string>
+
+</resources>

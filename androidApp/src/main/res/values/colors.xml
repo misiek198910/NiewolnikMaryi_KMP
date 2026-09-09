@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Granat z logo aplikacji (AppColors.background) — tło okna przy starcie,
+         żeby nie było białego błysku przed narysowaniem ciemnego UI Compose. -->
+    <color name="launch_background">#FF0B1826</color>
+</resources>
