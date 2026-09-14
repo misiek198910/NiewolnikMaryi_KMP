@@ -183,6 +183,20 @@ fun migrateOldAppData(settings: Settings) {
         return
     }
 
+    // Na części urządzeń (obserwowany przypadek: Samsung po Smart Switch / przywróceniu
+    // z kopii zapasowej systemowej) wartość zapisana pierwotnie jako Float wraca pod tym
+    // samym kluczem jako String, przez co settings.getFloat() rzuca ClassCastException.
+    // Ponieważ flaga is_migrated_v2 jest ustawiana dopiero na końcu tej funkcji, nieobsłużony
+    // wyjątek w pętli powodowałby powtarzanie się migracji (i crasha) przy każdym uruchomieniu
+    // aplikacji, więc każdy odczyt musi być odporny na oba typy danych.
+    fun safeGetFloat(key: String): Float {
+        return try {
+            settings.getFloat(key, 1.0f)
+        } catch (e: Exception) {
+            settings.getStringOrNull(key)?.toFloatOrNull() ?: 1.0f
+        }
+    }
+
     // --- MIGRACJA TRAKTATU ---
     val sections = listOf(12, 7, 7, 7)
 
@@ -190,7 +204,7 @@ fun migrateOldAppData(settings: Settings) {
         for (i in 0 until sections[idx]) {
             val oldKey = "$idx$i"
             val newKey = "pref_day_${idx}_$i"
-            val oldFloatValue = settings.getFloat(oldKey, 1.0f)
+            val oldFloatValue = safeGetFloat(oldKey)
 
             if (oldFloatValue == 0.5f) {
                 settings.putBoolean(newKey, true)
@@ -203,12 +217,14 @@ fun migrateOldAppData(settings: Settings) {
         val oldKey = "4$i"
         val newKey = "pref_nowenna_0_$i"
 
-        val oldFloatValue = settings.getFloat(oldKey, 1.0f)
+        val oldFloatValue = safeGetFloat(oldKey)
 
         if (oldFloatValue == 0.5f) {
             settings.putBoolean(newKey, true)
         }
     }
 
+    // Flaga musi zostać ustawiona niezależnie od tego, czy poszczególne odczyty się powiodły,
+    // bo pętla powyżej już nie rzuca wyjątków — bez tego migracja i tak wykonałaby się ponownie.
     settings.putBoolean("is_migrated_v2", true)
 }
